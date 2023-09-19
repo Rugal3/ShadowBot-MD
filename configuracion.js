@@ -22,24 +22,10 @@ import uploadImage from "./lib/uploadImage.js";
 //cambia los números que sean propietarios
 global.owner = [
 /*╔══════════════════╗*/
-/*║ ❒*/ ["5218442286089", "🔰𝐃𝐈𝐄𝐆𝐎-𝐂𝐑𝐄𝐀𝐃𝐎𝐑🔰", true],
-/*║ ❒*/ ["51993138466"],
-/*║ ❒*/ ["573184314110"],
-/*║ ❒*/ ["50246028932"],
-/*║ ❒*/ ["59895555511"],
-/*║ ❒*/ ["584125778026"],
-/*║ ❒*/ ["595986674310"],
-/*║ ❒*/ ["51936767238"],
-/*║ ❒*/ ["50495625729"],
-/*║ ❒*/ ["593968585383"],
-/*║ ❒*/ ["5219996125657"],
-/*║ ❒*/ ["595992611272"],
-/*║ ❒*/ ["5493458437331"],
-/*║ ❒*/ ["51957041866"],
-/*║ ❒*/ ["5492266466080"],  
-/*║ ❒*/ ["595975740803"], 
-/*║ ❒*/ ["593980586516"], 
-/*║ ❒*/ ["5492266613038"] 
+/*║ ❒*/ ["573207824209", "🔰RUGAL-CREADOR🔰", true],
+/*║ ❒*/ ["573207824209"],
+/*║ ❒*/ ["573207824209"],
+/*║ ❒*/ ["https://www.instagram.com/rugal.ventas/"],
 /*╚══════════════════╝*/                     ];
 /*┌--------------*/
 /*├➢*/ global.suittag = ["593959425714"];
@@ -51,10 +37,10 @@ global.prefix = new RegExp(
   "^[" + (opts["prefix"] || "xzXZ/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-HhhHBb.aA").replace(/[|\\{}()[\]^$+*?.\-\^]/g, "\\$&") + "]"
 );
 
-global.openai_key = "sk-0";
+global.openai_key = "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";
 /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
 
-global.openai_org_id = "org-3";
+global.openai_org_id = "org-Gw0RJr87Ei9KX7tD19Xqj9Pb";
 /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
 /* NO BORRAR NADA DE AQUÍ ABAJO*/
@@ -79,8 +65,8 @@ global.moment = moment;
 /*-----------------------*/
 
 /* ______________________________________________ */
-global.creadorname = "𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
-global.creatorname = "𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
+global.creadorname = "RUGAL.VENTAS";
+global.creatorname = "RUGAL.VENTAS";
 global.library = "BAILEYS-MD";
 global.vs = "V10";
 global.version = vs;
@@ -94,21 +80,20 @@ global.mes = d.toLocaleDateString("es", {month: "long"});
 global.año = d.toLocaleDateString("es", {year: "numeric"});
 global.tiempo = d.toLocaleString("en-US", {hour: "numeric", minute: "numeric", second: "numeric", hour12: true});
 //------------- Sticker WM -----------
-global.packname = `𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂`;
-global.author = `© 𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐜𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭`;
+global.packname = ` 𝚁𝚄𝙶𝙰𝙻 𝙱𝙾𝚃`;
+global.author = `© 𝙸𝙶: 𝚁𝚄𝙶𝙰𝙻.𝚅𝙴𝙽𝚃𝙰𝚂`;
 //_______________
-global.wm = "𝗦𝗵𝗮𝗱𝗼𝘄-𝗕𝗼𝘁 | 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂";
-global.db3t = `© 𝐓𝐡𝐞 𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐜𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭 `;
+global.wm = "RUGAL-BOT | RUGAL.VENTAS";
+global.db3t = `© RUGAL - BOT `;
 global.wm3 = db3t;
-global.codex = `Diego-Ofc`;
-global.igfg = "𝐒𝐡𝐚𝐝𝐨𝐰 𝐁𝐫𝐨𝐜𝐤𝐞𝐫𝐬 - 𝐁𝐨𝐭";
+global.codex = `RUGAL.VENTAS`;
+global.igfg = "RUGAL - BOT";
 global.wait = "*[❕] CARGANDO POR FAVOR ESPERA...*";
 //-------------------
-global.md = "https://chat.whatsapp.com/JuuuUaIQnnE3t4SWQenShg";
+global.md = "WA.ME/573207824209";
 global.dorramd = md;
 global.tarje = "Banesco";
-global.yt = "http://youtube.com/@diegogameplays82";
-global.youtube = yt;
+
 //Menu
 global.DorrafotoMenu = ["./galería/dorratmini.mp4"];
 global.menulinks = [md, yt];
@@ -119,7 +104,7 @@ global.fg = "☆━━━━ ⚠️ 𝙵𝙰𝙻𝙻𝙾 ⚠️ ━━━☆";
 global.fallo = fg;
 global.mg = "══ ❎ 𝙻𝙾 𝚄𝚂𝙾 𝙼𝙰𝙻 ❎ ══";
 global.mal = mg;
-global.dorre = "DORRAT-BOT-MD";
+global.dorre = "RUGAL-BOT-MD";
 global.DORRA = dorre;
 
 /* Imagenes___________________ */
